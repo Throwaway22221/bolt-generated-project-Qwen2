@@ -1,0 +1,45 @@
+/* Add your CSS here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#root {
+  flex: 1;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.email-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.email-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.email-item:hover {
+  background-color: #ddd;
+}
+
+.email-detail {
+  flex: 1;
+  padding: 20px;
+}
+
+.email-detail h2 {
+  margin-top: 0;
+}
+
+.email-detail p {
+  margin: 10px 0;
+}
